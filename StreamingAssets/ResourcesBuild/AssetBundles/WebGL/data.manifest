@@ -1,0 +1,79 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.3.21f1
+CRC: 1291160269
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d655b66930ed1184446cad7e8e6c1ba3
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: e1f6372ec41da99b5915b771a274a336
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 2426672bc7d69d3cafc020ea915569d5
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3375424610f3c4d72a4138cc14c98b51, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 606bd6737c6d94de490dfb553215a710, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8c4e088882aad43c7af103aa3c024b56, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 57e6dee1ba7ab4e969faf7dbd55065ed, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 340ba4da0c5654eea943a0306b41a97d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: fd0140901cc93404cb8d907a06818b60, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7d66c596a4e614fb68bc61200650bc0d, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 6a935fbd6f72f466ca99ba83f284960a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b2817f034c00b42c99b54653572283cb, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8468e3b62451244d69803e97ac7d26ed, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: Assembly-CSharp
+  ClassName: BowlingParty.Configs.NpcEventEntry
+- AssemblyName: Assembly-CSharp
+  ClassName: BowlingParty.Configs.OutcomeEntry
+- AssemblyName: Assembly-CSharp
+  ClassName: SoundsData/SoundData
+Assets:
+- Assets/AssetBundles/Data/BowlingParty/Event_Rest.asset
+- Assets/AssetBundles/Data/BowlingParty/Event_GetShoes.asset
+- Assets/AssetBundles/Data/BowlingParty/Outcome_ShoesGiven.asset
+- Assets/AssetBundles/Data/BowlingParty/Outcome_Fall.asset
+- Assets/AssetBundles/Data/BowlingParty/BowlingConfigs.asset
+- Assets/AssetBundles/Data/BowlingParty/Item_Shoes.asset
+- Assets/AssetBundles/Data/GameplayEventData.asset
+- Assets/AssetBundles/Data/BowlingParty/Puddle_Default.asset
+- Assets/AssetBundles/Data/BowlingParty/Outcome_LaneBroken.asset
+- Assets/AssetBundles/Data/BowlingParty/Event_Throw.asset
+- Assets/AssetBundles/Data/BowlingParty/Task_RepairLane.asset
+- Assets/AssetBundles/Data/BowlingParty/Task_GiveShoes.asset
+- Assets/AssetBundles/Data/BowlingParty/Item_Bottle.asset
+- Assets/AssetBundles/Data/BowlingParty/Outcome_Miss.asset
+- Assets/AssetBundles/Data/BowlingParty/Outcome_Strike.asset
+- Assets/AssetBundles/Data/BowlingParty/Outcome_Spilled.asset
+- Assets/AssetBundles/Data/BowlingParty/Event_Drink.asset
+- Assets/AssetBundles/Data/BowlingParty/Event_BarTalk.asset
+- Assets/AssetBundles/Data/BowlingParty/NpcEventSchedulerConfig.asset
+- Assets/AssetBundles/Data/BowlingParty/Task_CleanPuddle.asset
+- Assets/AssetBundles/Data/BowlingParty/Task_FixPinDeck.asset
+- Assets/AssetBundles/Data/BowlingParty/Task_DeliverDrink.asset
+- Assets/AssetBundles/Data/BowlingParty/Npc_Default.asset
+- Assets/AssetBundles/Data/BowlingParty/Task_TalkToNpc.asset
+- Assets/AssetBundles/Data/BowlingParty/Item_Drink.asset
+- Assets/AssetBundles/Data/BowlingParty/Item_Mop.asset
+- Assets/AssetBundles/Data/BowlingParty/Outcome_Rested.asset
+- Assets/AssetBundles/Data/BowlingParty/Outcome_BallStuck.asset
+- Assets/AssetBundles/Data/SoundsData.asset
+- Assets/AssetBundles/Data/BowlingParty/Outcome_Drank.asset
+- Assets/AssetBundles/Data/BowlingParty/Outcome_Chatted.asset
+Dependencies: []

@@ -1,0 +1,21 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.3.21f1
+CRC: 2133322035
+HashAppended: 0
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: localization
+      Dependencies: {}
+    Info_1:
+      Name: prefabui
+      Dependencies:
+        Dependency_0: localization
+        Dependency_1: textures/ui
+    Info_2:
+      Name: textures/ui
+      Dependencies:
+        Dependency_0: localization
+    Info_3:
+      Name: data
+      Dependencies: {}

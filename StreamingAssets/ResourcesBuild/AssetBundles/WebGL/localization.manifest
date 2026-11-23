@@ -1,0 +1,77 @@
+ManifestFileVersion: 0
+UnityVersion: 6000.3.21f1
+CRC: 1717261323
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: fe4714be07e24060a4c81a1da0cd4052
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f64d3eeafec19dac535eb1503070a6d8
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 58a9eb5260e322e5061d38ed6781e739
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.FaceInfo_Legacy
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.FontAssetCreationSettings
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.KerningTable
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_Character
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_FontFeatureTable
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_FontWeightPair
+- AssemblyName: UnityEngine.TextCoreFontEngineModule
+  ClassName: UnityEngine.TextCore.FaceInfo
+- AssemblyName: UnityEngine.TextCoreFontEngineModule
+  ClassName: UnityEngine.TextCore.Glyph
+- AssemblyName: UnityEngine.TextCoreFontEngineModule
+  ClassName: UnityEngine.TextCore.GlyphMetrics
+- AssemblyName: UnityEngine.TextCoreFontEngineModule
+  ClassName: UnityEngine.TextCore.GlyphRect
+Assets:
+- Assets/AssetBundles/Localization/en/Rubik-BoldItalic Material_Shadow.mat
+- Assets/AssetBundles/Localization/en/Rubik-Regular Material_shadow.mat
+- Assets/AssetBundles/Localization/en/FiraSansExtraCondensed-ExtraBold SDF Shadow.mat
+- Assets/AssetBundles/Localization/en/FiraSansExtraCondensed-Medium SDF.asset
+- Assets/AssetBundles/Localization/DEBUG_FONT.ttf
+- Assets/AssetBundles/Localization/en/FiraSansExtraCondensed-Medium.ttf
+- Assets/AssetBundles/Localization/en/Rubik-Bold.asset
+- Assets/AssetBundles/Localization/en/Rubik-Bold SDF outline.mat
+- Assets/AssetBundles/Localization/en/Rubik-Bold Material_ShadowDown.mat
+- Assets/AssetBundles/Localization/en/Rubik-BoldItalic.asset
+- Assets/AssetBundles/Localization/en/Rubik-Bold Material_ShadowBlue.mat
+- Assets/AssetBundles/Localization/en/Rubik-BoldItalic SDF OutlineOnly.mat
+- Assets/AssetBundles/Localization/en/Rubik-Bold Material_Outline.mat
+- Assets/AssetBundles/Localization/en/FiraSansExtraCondensed-ExtraBold SDF Outline.mat
+- Assets/AssetBundles/Localization/en/Rubik-Bold Material_Shadow.mat
+- Assets/AssetBundles/Localization/en/Rubik-Bold RedGlow.mat
+- Assets/AssetBundles/Localization/en/Rubik-Regular.asset
+- Assets/AssetBundles/Localization/en/FiraSansExtraCondensed-ExtraBold SDF.asset
+- Assets/AssetBundles/Localization/DEBUG_FONT.asset
+- Assets/AssetBundles/Localization/en/Rubik-Regular Material_outline.mat
+- Assets/AssetBundles/Localization/en/FiraSansExtraCondensed-ExtraBold SDF Dark Outline.mat
+- Assets/AssetBundles/Localization/en/Rubik-Bold Material_RedGlow.mat
+- Assets/AssetBundles/Localization/en/Rubik-Bold Material_BlueGlow.mat
+- Assets/AssetBundles/Localization/en/Rubik-Bold Material_Room.mat
+- Assets/AssetBundles/Localization/en/Rubik-Bold Material_Shadow_2.mat
+- Assets/AssetBundles/Localization/en/FiraSansExtraCondensed-ExtraBold SDF Shadow_2.mat
+- Assets/AssetBundles/Localization/en/FiraSansExtraCondensed-ExtraBold.ttf
+Dependencies: []

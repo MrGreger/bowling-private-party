@@ -1,0 +1,12 @@
+﻿<ConfigurationData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  DebugMode="developer"
+  DebugUIEnable="true"
+  DefaultLoggingLevel="All"
+  DefaultStackTraceLevel="All"
+  ServerAdress="ws://135.181.162.231:7001/ws"
+  UseVersiontoURLAddress="true"
+  VersiontoURLAddress="https://d3jxvxle1t203x.cloudfront.net/version.json"
+  Version="0.0.0"
+  CloudReporterAdress="https://kds.squaretriangle.team/api/records/default.logs"
+  Environment="Development"
+  RemoteAssetBundles="" />
