@@ -5,7 +5,13 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Unity Web Player | Bowling Private Party</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
-    <link rel="stylesheet" href="TemplateData/style.css">
+    <link rel="stylesheet" href="TemplateData/style.css?v=2">
+    <style>
+      /* Fit the portrait 9:16 game into the browser window (the canvas is 1080x1920 by default). */
+      html, body { height: 100%; overflow: hidden; background: #1b1b22 }
+      #unity-container.unity-desktop #unity-canvas { height: calc(100vh - 38px) !important; width: calc((100vh - 38px) * 9 / 16) !important }
+      #unity-build-title { color: #ddd }
+    </style>
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
@@ -52,12 +58,12 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/e0f4002d001ac05fcac45a11f3f16c44.loader.js";
+      var loaderUrl = buildUrl + "/b4f71d72cb94b17e1ce89cb253dd588f.loader.js";
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/44afef94f60263fbae08e019a19f124f.data",
+        dataUrl: buildUrl + "/21bea4aeddb81878742de8bff384352d.data",
         frameworkUrl: buildUrl + "/5897b14ddf79f04dfb6de713c26fb777.framework.js",
-        codeUrl: buildUrl + "/af83743fefc98603f44e0c965ce17516.wasm",
+        codeUrl: buildUrl + "/65e049344a32a47841e3f79218a430e6.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "SquareTriangle",
         productName: "Bowling Private Party",
