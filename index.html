@@ -5,11 +5,9 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Unity Web Player | Bowling Private Party</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
-    <link rel="stylesheet" href="TemplateData/style.css?v=2">
+    <link rel="stylesheet" href="TemplateData/style.css?v=3">
     <style>
-      /* Fit the portrait 9:16 game into the browser window (the canvas is 1080x1920 by default). */
       html, body { height: 100%; overflow: hidden; background: #1b1b22 }
-      #unity-container.unity-desktop #unity-canvas { height: calc(100vh - 38px) !important; width: calc((100vh - 38px) * 9 / 16) !important }
       #unity-build-title { color: #ddd }
     </style>
   </head>
@@ -109,9 +107,15 @@
 
 
       } else {
-        // Desktop style: Render the game canvas in a window that can be maximized to fullscreen:
-        canvas.style.width = "1080px";
-        canvas.style.height = "1920px";
+        // Desktop style: the portrait 9:16 game fitted into the browser window (above the 38px footer).
+        function fitCanvas() {
+          var h = window.innerHeight - 38, w = Math.round(h * 9 / 16);
+          if (w > window.innerWidth) { w = window.innerWidth; h = Math.round(w * 16 / 9); }
+          canvas.style.width = w + "px";
+          canvas.style.height = h + "px";
+        }
+        fitCanvas();
+        window.addEventListener("resize", fitCanvas);
       }
 
       document.querySelector("#unity-loading-bar").style.display = "block";
