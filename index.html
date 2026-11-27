@@ -107,12 +107,10 @@
 
 
       } else {
-        // Desktop style: the portrait 9:16 game fitted into the browser window (above the 38px footer).
+        // Desktop style: the game fills the browser window above the 38px footer, as it does in full screen.
         function fitCanvas() {
-          var h = window.innerHeight - 38, w = Math.round(h * 9 / 16);
-          if (w > window.innerWidth) { w = window.innerWidth; h = Math.round(w * 16 / 9); }
-          canvas.style.width = w + "px";
-          canvas.style.height = h + "px";
+          canvas.style.width = window.innerWidth + "px";
+          canvas.style.height = (window.innerHeight - 38) + "px";
         }
         fitCanvas();
         window.addEventListener("resize", fitCanvas);
